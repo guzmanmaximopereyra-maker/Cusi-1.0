@@ -1,5 +1,3 @@
-/* height: 753px; width: 1592px;        medida de fondos*/
-html,
 body {
     margin: 0;
     padding: 0;
@@ -26,14 +24,14 @@ body {
     font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
 }
 
-.pantalla-inicio .botones {
+.botones {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
 }
 
-.pantalla-inicio button {
+button {
     font-family: inherit;
     font-size: 30px;
     font-weight: 900;
@@ -49,31 +47,31 @@ body {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
 }
 
-.pantalla-inicio button:hover {
+button:hover {
     filter: brightness(1.08);
 }
 
-.pantalla-inicio button:active {
+button:active {
     transform: translateY(6px);
     box-shadow: 0 0 0 #4E1B57, 0 4px 8px rgba(0, 0, 0, .4);
 }
 
-.pantalla-inicio button:focus-visible {
+button:focus-visible {
     outline: 3px solid #FFD35C;
     outline-offset: 3px;
 }
 
-.pantalla-inicio .btn-secundario {
+.btn-secundario {
     background: linear-gradient(180deg, #6FA8DC, #3D6FA8);
     box-shadow: 0 6px 0 #234A73, 0 10px 16px rgba(0, 0, 0, .4);
 }
 
-.pantalla-inicio .btn-secundario:active {
+.btn-secundario:active {
     box-shadow: 0 0 0 #234A73, 0 4px 8px rgba(0, 0, 0, .4);
 }
 
-.goy{
- position: absolute;
+.goy {
+    position: absolute;
     top: 40px;
     left: 190px;
     display: flex;
@@ -94,7 +92,8 @@ body {
 }
 
 .campos #nombre {
-  font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;;
+    font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+    ;
     font-size: 20px;
     font-weight: 900;
     letter-spacing: 1px;
@@ -107,4 +106,92 @@ body {
     cursor: pointer;
     transition: transform .08s ease, box-shadow .08s ease;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+}
+
+.living {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('living-scr/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 70px 16px;
+    font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+}
+
+#src {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.arrow_l {
+    position: absolute;
+    bottom: 170px;
+    left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.arrow_r {
+    position: absolute;
+    bottom: 170px;
+    right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.im-btn {
+    scale: initial;
+    transition: 0.5s;
+}
+
+.im-btn:hover {
+    scale: 1.2;
+}
+
+#tienda {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+#diego {
+    position: absolute;
+    top: 260px;
+    left: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+#cusi_a {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+    z-index: 2;
 }
