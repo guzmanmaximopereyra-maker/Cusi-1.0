@@ -162,7 +162,7 @@ button:focus-visible {
 }
 
 .im-btn:hover {
-    scale: 1.2;
+    scale: 1.1;
 }
 
 #tienda {
@@ -194,4 +194,84 @@ button:focus-visible {
     gap: 10px;
     justify-content: flex-end;
     z-index: 2;
+}
+
+.garden {
+    position: relative;
+    width: 103%;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('garden-scr/fondo_b.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 70px 16px;
+    font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+
+}
+
+#huerta {
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+#kanep {
+    position: absolute;
+    top: 160px;
+    left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+.cocina {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('cocina-scr/fondo_b.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 70px 16px;
+    font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', Verdana, sans-serif;
+
+}
+
+#heladera {
+    position: absolute;
+    top: 111px;
+    left: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+#franco {
+    position: absolute;
+    bottom: 200px;
+    right: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+    z-index: 1;
 }
