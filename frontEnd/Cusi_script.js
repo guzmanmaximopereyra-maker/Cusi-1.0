@@ -1,4 +1,4 @@
-  async function llamaA(url) {
+  async function irA(url) {
             try {
                 const response = await fetch(url, {
                     method: 'POST' 
