@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -7,7 +6,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Cusi</title>
    <link rel="stylesheet" href="../Cusi_style/Cusi_style.css">
-</head>            
+</head>
+
 <body>
    <section class="garden">
       <div class="botones">

@@ -198,7 +198,7 @@ button:focus-visible {
 
 .garden {
     position: relative;
-    width: 103%;
+    width: 100%;
     min-height: 100vh;
     margin: 0;
     background-image: url('garden-scr/fondo_b.png');
@@ -309,6 +309,44 @@ button:focus-visible {
     position: absolute;
     bottom: 228px;
     right: 402px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.pieza {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('room-scr/fondo_b.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 70px 16px;
+
+}
+
+#armario {
+    position: absolute;
+    top: 95px;
+    left: 325px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+#minijuegos {
+    position: absolute;
+    bottom: 243px;
+    right: 300px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
