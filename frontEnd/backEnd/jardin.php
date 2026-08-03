@@ -11,8 +11,8 @@
 <body>
    <section class="garden">
       <div class="botones">
-         <button onclick="irA('living.php')" class="arrow_r"><img src="../Cusi_style/right.png" width="70"></button>
-         <button onclick="irA('config.php')" class="btn-secundario" id="src"> <img src="../Cusi_style/eng.png"
+         <button onclick="irA('backEnd/living.php')" class="arrow_r"><img src="../Cusi_style/right.png" width="70"></button>
+         <button onclick="irA('backEnd/config.php')" class="btn-secundario" id="src"> <img src="../Cusi_style/eng.png"
                width="70"></button>
       </div>
       <img src="../Cusi_style/CUSI_skins/Cusi.png" width="550" id="cusi_a">

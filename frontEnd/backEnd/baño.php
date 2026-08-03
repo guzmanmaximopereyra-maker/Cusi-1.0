@@ -13,9 +13,9 @@
 <body>
    <section class="baño">
       <div class="botones">
-         <button onclick="irA('cocina.php')" class="arrow_l"><img src="../Cusi_style/left.png" width="70"></button>
-         <button onclick="irA('pieza.php')" class="arrow_r"><img src="../Cusi_style/right.png" width="70"></button>
-         <button onclick="irA('config.php')" class="btn-secundario" id="src"> <img src="../Cusi_style/eng.png"
+         <button onclick="irA('backEnd/cocina.php')" class="arrow_l"><img src="../Cusi_style/left.png" width="70"></button>
+         <button onclick="irA('backEnd/pieza.php')" class="arrow_r"><img src="../Cusi_style/right.png" width="70"></button>
+         <button onclick="irA('backEnd/config.php')" class="btn-secundario" id="src"> <img src="../Cusi_style/eng.png"
                width="70"></button>
       </div>
 
