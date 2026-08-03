@@ -1,7 +1,7 @@
   async function irA(url) {
             try {
                 const response = await fetch(url, {
-                    method: 'GET' 
+                    method: 'POST' 
                 });
 
                 if (!response.ok) throw new Error('Error en la petición');
