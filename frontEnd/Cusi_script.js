@@ -1,4 +1,5 @@
   async function irA(url) {
+    alert(url)
             try {
                 const response = await fetch(url, {
                     method: 'POST' 
